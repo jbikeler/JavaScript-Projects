@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang=en>
+	<head>
+		<title>Page Title</title>
+		<meta charset="utf-8">
+        <script src="./js/main.js"></script>
+	</head>
+	<body>
+        <!-- Clickable program to edit values in js code -->
+        <p id="inventory">Inventory Slots: 10</p>
+        <p onmousedown="addSlot()">++ Add Inventory Slot</p>
+        <p onmousedown="subSlot()">-- Remove Inventory Slot</p>
+        <p id="items">Item Amount: 5</p>
+        <p onmousedown="addItem()">++ Add Item</p>
+        <p onmousedown="subItem()">-- Remove Item</p>
+        <p id="damage">Attack damage is: 0</p>
+        <p onmousedown="getDamage()">[] Roll Damage</p>
+        <p id="mod">Inventory Mod 5 = 0</p>
+        <p onmousedown="modForFun()">%% Get Mod</p>
+	</body>
+</html>
