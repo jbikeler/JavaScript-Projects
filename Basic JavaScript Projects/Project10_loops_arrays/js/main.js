@@ -36,7 +36,7 @@ function constant_Function() {
     myConst[3] = "ukelele";
     document.getElementById("Constant").innerHTML = myConst[3]; //added to value 
     myConst = ["floor tom", "snare"];
-    document.getElementById("Constant2").innerHTML = myConst[1]; //should not print because we change the type
+    document.getElementById("Constant2").innerHTML = myConst[1]; //should cause error because we tried to change const the type
 }
 
 function letFunc() {

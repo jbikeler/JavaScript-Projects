@@ -1,0 +1,46 @@
+/* This container includes our table and our canvas */
+.center-container {
+    width: 608px; /* Sets the width property */
+    margin: 0 auto; /* Centers our container */
+    margin-top: 50px; /* 50px down from the top */
+}
+
+body {
+    background-color: rgb(34, 180, 155);
+}
+
+table {
+    border-collapse: collapse; /* Collapses table border into 1 border */
+    border-style: hidden; /* Hides outer borders on table */
+}
+
+td {
+    cursor: pointer; /* This property changes the cursor intoand index finger when we hover over the td element */
+    border: 8px solid rgb(18, 135, 115);
+    padding: 0px; /* This property will remove the default padding */
+    width: 200px;
+    height: 200px;
+    filter: contrast(3);
+}
+
+canvas {
+    position: absolute; /* Sets the position of our canvas to the top left corner of our container. */
+    z-index: 10; /* Places our canvas over the top of our table. */
+    pointer-events: none; /* Makes our canvas invisible. */
+}
+
+#game-title {
+    text-align: center;
+}
+
+h1 {
+    border-radius: 35px;
+    width: fit-content;
+    margin: 10px auto;
+    padding: 14px;
+    padding-top: 10px;
+    border: 5px solid rgb(245, 240, 234);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: rgb(245, 240, 234);
+}
