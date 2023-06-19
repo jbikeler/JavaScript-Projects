@@ -15,11 +15,11 @@ function getReceipt() {
         sizeTotal = 6;
     } else if (selectedSize === "Medium Pizza")  {
         sizeTotal = 10;
-    } else if (selectedSize === "Large") {
+    } else if (selectedSize === "Large Pizza") {
         sizeTotal = 12;
-    } else if (selectedSize === "Extra") {
+    } else if (selectedSize === "Extra Large Pizza") {
         sizeTotal = 14;
-    } else if (selectedSize === "Party") { //party pizza is "my" optional special size
+    } else if (selectedSize === "Party Pizza") { //party pizza is "my" optional special size
         sizeTotal = 16;
     }
     runningTotal = sizeTotal;
