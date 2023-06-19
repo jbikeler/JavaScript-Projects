@@ -1,0 +1,68 @@
+#menuBG { /* wrap order area with a small border */
+    width: min-content;
+    height: max-content;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid darkslategray;
+    border-radius: 15px;
+}
+
+#frmMenu {
+    width: min-content;
+}
+
+.menu {
+    text-align: left;
+    margin: 0 15px;
+    min-width: max-content;
+}
+
+#totalPrice {
+    min-width: 200px;
+    margin: 0 auto;
+    float: right;
+}
+
+.option-wrap {
+    display: flex;
+    width: 80%;
+}
+
+.m-1 {
+    margin: 20px 0px;
+}
+
+.main-h1 {
+    margin: 0;
+}
+
+#showText {
+    min-width: 200px;
+    margin: 0px auto;
+    float: left
+}
+
+#cart {
+    display: flex;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+
+.btnorder {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(178, 54, 26);
+    color: blanchedalmond;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 2px solid darkslategray;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+h1, h3, div {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategray;
+}
