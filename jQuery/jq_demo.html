@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+    <script>
+        $(document).ready(function() { //replace html with the following content
+            $("html").append(
+            "<body>\
+                <div id = 'container'>\
+                    <div id='inner'>\
+                        <h1>Basic jQuery</h1>\
+                        <p id = '1'>Paragraph 1</p>\
+                        <p id = '2'>Paragraph 2</p>\
+                        <p id = '3'>Paragraph 3</p>\
+                    </div>\
+                </div>\
+            </body>"
+            );
+            $("#2").css({ "color" : "red" } );
+            $("#3").click(function() {
+                $("hl").hide();
+            });
+            // Binding multiple events with different handlers
+            $("p").on({
+                "click": function() { console.log( "clicked!" ); },
+                "mouseover": function() { console.log( "hovered!" ); }
+            });
+        });
+    </script>
+</html>
